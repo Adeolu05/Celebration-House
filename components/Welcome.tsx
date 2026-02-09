@@ -108,18 +108,6 @@ const Welcome: React.FC = () => {
                   </div>
                 </div>
               </div>
-
-              <div className="pt-4 flex flex-col sm:flex-row items-center gap-8">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/2/23/Signature_of_Barack_Obama.svg"
-                  alt="Pastor Signature"
-                  className="h-16 opacity-30 invert grayscale group-hover:opacity-100 transition-opacity"
-                />
-                <div>
-                  <p className="font-heading font-bold text-rccg-blue">{CHURCH_INFO.pastor.name}</p>
-                  <p className="text-xs font-heading font-semibold text-rccg-blue/40 uppercase tracking-widest leading-none mt-1">Lead Pastor, Region 32</p>
-                </div>
-              </div>
             </motion.div>
           </div>
 
