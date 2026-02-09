@@ -88,7 +88,7 @@ const Welcome: React.FC = () => {
                 </p>
               </div>
 
-              <div className="grid grid-cols-2 gap-8 py-8 border-y border-rccg-blue/10">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 py-8 border-y border-rccg-blue/10">
                 <div className="flex items-start gap-4">
                   <div className="p-3 rounded-xl bg-rccg-gold/10 text-rccg-gold">
                     <Star className="w-6 h-6" />

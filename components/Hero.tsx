@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
           </motion.div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl text-white font-heading font-bold tracking-tight leading-[1.1] drop-shadow-[0_10px_40px_rgba(0,0,0,0.6)]">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl text-white font-heading font-bold tracking-tight leading-[1.1] drop-shadow-[0_10px_40px_rgba(0,0,0,0.6)]">
             Raising Champions,
             <br />
             <span className="text-rccg-gold italic">Dominating Territories.</span>

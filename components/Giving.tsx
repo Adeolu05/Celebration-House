@@ -84,7 +84,7 @@ const Giving: React.FC = () => {
                 <div className="relative">
                   <label className="text-white/40 font-heading font-bold text-xs uppercase tracking-widest mb-3 block">Account Number</label>
                   <div className="flex items-center justify-between bg-white/10 p-5 rounded-2xl border border-white/5 group-hover:border-rccg-gold/30 transition-all cursor-pointer" onClick={handleCopy}>
-                    <p className="text-rccg-gold text-3xl sm:text-4xl font-mono font-bold tracking-wider">{CHURCH_INFO.giving.accountNumber}</p>
+                    <p className="text-2xl xs:text-3xl sm:text-4xl font-mono font-bold tracking-wider text-rccg-gold uppercase">{CHURCH_INFO.giving.accountNumber}</p>
                     <button className="p-3 bg-rccg-gold text-rccg-blue rounded-xl hover:bg-white transition-all shadow-lg active:scale-90">
                       {copied ? <Check className="w-6 h-6" /> : <Copy className="w-6 h-6" />}
                     </button>
