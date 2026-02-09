@@ -80,7 +80,7 @@ const ServiceTimes: React.FC = () => {
             </p>
             <div className="flex flex-wrap gap-4">
               <button
-                onClick={() => window.open('https://maps.app.goo.gl/YourActualLink', '_blank')}
+                onClick={() => window.open(CHURCH_INFO.directionsUrl, '_blank')}
                 className="inline-flex items-center gap-3 bg-white text-rccg-blue px-8 py-4 rounded-2xl font-heading font-bold hover:bg-rccg-gold transition-all shadow-lg active:scale-95"
               >
                 <span>Get Directions</span>

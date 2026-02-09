@@ -2,7 +2,8 @@ export const CHURCH_INFO = {
   name: "RCCG Region 32",
   hqName: "Celebration House",
   location: "Celebration House, Adigbe, Abeokuta, Ogun State",
-  mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.8475266856!2d3.3135!3d7.1325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103a4c4b5b5b5b5b%3A0x5b5b5b5b5b5b5b5b!2sCelebration%20House!5e0!3m2!1sen!2sng!4v1234567890", // Placeholder map
+  mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15833.475266856!2d3.3135!3d7.1325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103a4d2f092d8f11%3A0x2ace2f4a71e71038!2sRCCG%20REGION%2032%20HEADQUARTERS%20Celebration%20House!5e0!3m2!1sen!2sng!4v1707440000000",
+  directionsUrl: "https://maps.app.goo.gl/SUf19jEEsz9zGCkk8",
   pastor: {
     name: "Pastor A.M. Aduradola",
     title: "Pastor in Charge of Region (PICR)",
