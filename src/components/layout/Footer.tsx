@@ -1,6 +1,6 @@
 import React from 'react';
 import { Church, Twitter, Instagram, Facebook, Send, ShieldCheck, FileText } from 'lucide-react';
-import { CHURCH_INFO, NAV_LINKS } from '../constants';
+import { CHURCH_INFO, NAV_LINKS } from '../../constants';
 
 const Footer: React.FC = () => {
    return (

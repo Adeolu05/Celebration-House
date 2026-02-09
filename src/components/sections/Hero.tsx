@@ -1,7 +1,7 @@
 import React from 'react';
 import { Calendar } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { CHURCH_INFO } from '../constants';
+import { CHURCH_INFO } from '../../constants';
 
 const Hero: React.FC = () => {
   const scrollToSection = (id: string) => {

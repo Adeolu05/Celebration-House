@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Copy, Check, Info, Landmark } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CHURCH_INFO } from '../constants';
+import { CHURCH_INFO } from '../../constants';
 
 const Giving: React.FC = () => {
   const [copied, setCopied] = useState(false);

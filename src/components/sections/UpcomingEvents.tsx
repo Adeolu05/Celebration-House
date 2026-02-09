@@ -1,7 +1,7 @@
 import React from 'react';
 import { Calendar, MapPin, Clock, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { UPCOMING_EVENTS } from '../constants';
+import { CHURCH_INFO, UPCOMING_EVENTS } from '../../constants';
 
 const UpcomingEvents: React.FC = () => {
   return (

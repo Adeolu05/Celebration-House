@@ -1,7 +1,7 @@
 import React from 'react';
 import { Users, Heart, Zap, Baby, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { MINISTRIES } from '../constants';
+import { CHURCH_INFO, MINISTRIES } from '../../constants';
 
 const iconMap = {
   Users: Users,

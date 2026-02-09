@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Church, MapPin, Calendar, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { NAV_LINKS } from '../constants';
+import { NAV_LINKS, CHURCH_INFO } from '../../constants';
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Clock, MapPin, ExternalLink, CalendarDays } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { SERVICE_TIMES, CHURCH_INFO } from '../constants';
+import { SERVICE_TIMES, CHURCH_INFO } from '../../constants';
 
 const ServiceTimes: React.FC = () => {
   return (

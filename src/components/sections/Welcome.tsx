@@ -1,7 +1,7 @@
 import React from 'react';
 import { Users, Heart, Star, CheckCircle2 } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { CHURCH_INFO } from '../constants';
+import { CHURCH_INFO } from '../../constants';
 
 const Welcome: React.FC = () => {
   return (
