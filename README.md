@@ -55,10 +55,14 @@ npm run dev
 
 4. Open your browser and visit `http://localhost:3000`
 
-### Build for Production
+### Build & Verification
 
 ```bash
+# Build for production (includes type checking)
 npm run build
+
+# Format code with Prettier
+npm run format
 ```
 
 The optimized production build will be generated in the `dist` folder.
@@ -67,25 +71,23 @@ The optimized production build will be generated in the `dist` folder.
 
 ```
 Region32/
-├── public/                  # Static assets
-│   ├── rccg-logo.png       # Official RCCG logo
-│   ├── favicon.png         # Site favicon
-│   └── picr.jpg            # Pastor's photo
-├── components/             # React components
-│   ├── Navbar.tsx          # Navigation bar
-│   ├── Hero.tsx            # Hero section
-│   ├── Welcome.tsx         # Pastor's welcome
-│   ├── ServiceTimes.tsx    # Service schedule
-│   ├── Ministries.tsx      # Ministry overview
-│   ├── UpcomingEvents.tsx  # Events calendar
-│   ├── Resources.tsx       # Sermons & bulletins
-│   ├── Giving.tsx          # Donation information
-│   └── Footer.tsx          # Site footer
-├── constants/
-│   └── index.ts            # Church configuration & content
-├── App.tsx                 # Main app component
-├── index.html              # HTML entry point
-└── index.css               # Global styles & Tailwind config
+├── public/                  # Static assets (logos, images, favicon)
+├── src/                    # Main source code
+│   ├── components/         # React components
+│   │   ├── layout/         # Structure elements (Navbar, Footer)
+│   │   └── sections/       # Individual page segments (Hero, Welcome, etc.)
+│   ├── constants/          # Site content & church configuration
+│   ├── assets/             # Local images & icons
+│   ├── types/              # TypeScript interfaces
+│   ├── App.tsx             # Root component & layout
+│   └── index.tsx           # Application entry point
+├── .editorconfig           # Consistent editor settings
+├── .prettierrc             # Automated code formatting
+├── .env.example            # Environment variables documentation
+├── LICENSE                 # project licensing
+├── CONTRIBUTING.md         # Contribution guidelines
+├── package.json            # Scripts & dependencies
+└── tsconfig.json           # TypeScript configuration
 ```
 
 ## 🎨 Brand Colors
@@ -93,15 +95,11 @@ Region32/
 - **RCCG Blue**: `#1a237e` - Primary brand color
 - **RCCG Gold**: `#ffd700` - Accent color for highlights
 - **RCCG Red**: `#d32f2f` - Secondary accent
-- **RCCG Cream**: `#faf8f3` - Background color
+- **RCCG Cream**: `#f5f5f5` - Background warmth
 
 ## 🌐 Deployment
 
-This site is ready to deploy to:
-
-- **Vercel** (Recommended): Connect your GitHub repository for automatic deployments
-- **Netlify**: Drag and drop the `dist` folder or connect via GitHub
-- **GitHub Pages**: Configure GitHub Actions for automated deployment
+This site is ready to deploy to **Vercel**, **Netlify**, or **GitHub Pages**.
 
 ### Quick Deploy to Vercel
 
@@ -119,7 +117,7 @@ This site is ready to deploy to:
 
 ## 📝 License
 
-This project is created for RCCG Region 32. All rights reserved.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
