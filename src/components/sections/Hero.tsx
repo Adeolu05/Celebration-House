@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
 
           {/* Subheading */}
           <p className="text-lg sm:text-xl lg:text-2xl text-white/85 font-body italic leading-relaxed max-w-2xl mx-auto">
-            {CHURCH_INFO.name} Headquarters — A place of God's power, grace, and transformative worship.
+            {CHURCH_INFO.name} Headquarters — The Region of Possibilities, God's power, grace, and transformative worship.
           </p>
 
           {/* CTA Section */}
